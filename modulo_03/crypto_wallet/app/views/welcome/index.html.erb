@@ -1,5 +1,6 @@
 <% nome = 'Carlos' %>
 <h1>Seja Bem-Vindo, <%= nome %></h1>
+<p><strong>Data: </strong> <%= data_br(Date.today) %></p>
 <ul>
     <li>
         <%= link_to "Cadastro de Moedas", coins_path %> <!-- PARA SABER AS ROTAS DISPONÍVEIS, ACESSE A ROTA localhost:3000/rails/info/routes. DESTA FORMA VOCÊ VERÁ OS helpers INDICANDO AS ROTAS EXISTENTES. -->
