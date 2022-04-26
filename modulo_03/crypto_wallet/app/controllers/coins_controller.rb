@@ -1,4 +1,5 @@
 class CoinsController < ApplicationController
+  layout "adm" # FAZENDO APONTAMENTO DO LAYOUT 'adm.html.erb' DENTRO DA PASTA VIEWS/LAYOUTS
   before_action :set_coin, only: %i[ show edit update destroy ]
 
   # GET /coins or /coins.json
